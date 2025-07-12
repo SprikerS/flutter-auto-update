@@ -1,4 +1,4 @@
-package com.example.flutter_auto_update
+package dev.sprikers.flutterautoupdate
 
 import io.flutter.embedding.android.FlutterActivity
 
