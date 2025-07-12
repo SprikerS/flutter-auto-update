@@ -13,6 +13,7 @@ dependencies:
   device_info_plus: ^11.5.0
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.4.6
   package_info_plus: ^8.3.0
 
 dev_dependencies:
@@ -26,6 +27,20 @@ flutter_launcher_icons:
   android: 'launcher_icon'
   image_path: 'assets/icon/icon.png'
   min_sdk_android: 21
+
+flutter_native_splash:
+  color: '#FEF7FF'
+  color_dark: '#141118'
+  image: 'assets/icon/icon.png'
+
+  android_12:
+    color: '#FEF7FF'
+    color_dark: '#141118'
+    image: assets/icon/android12splash.png
+
+  android: true
+  ios: false
+  web: false
 
 flutter:
   uses-material-design: true

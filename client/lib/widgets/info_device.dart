@@ -1,6 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 
+import 'package:flutter_native_splash/flutter_native_splash.dart';
+
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -43,6 +45,8 @@ class _InfoDeviceState extends State<InfoDevice> {
         _androidVersion = androidInfo.version.release;
         _supportedAbis = androidInfo.supportedAbis.join(', ');
       }
+
+      FlutterNativeSplash.remove();
     });
   }
 
